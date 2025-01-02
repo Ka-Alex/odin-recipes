@@ -1,0 +1,25 @@
+* {
+    line-height: 1.5;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.container {
+    background-color: #fcfeff;
+    width: 500px;
+    border: 1px,solid,rgb(243, 243, 243);
+}
+
+ul li{
+    list-style: none;
+}
+
+.enjoy {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ff0065;
+}
