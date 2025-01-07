@@ -12,25 +12,175 @@
 }
 
 body {
-    /* 3. Add accessible line-height */
     line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
+    background-color: #C2D6D5;
 }
+
+.title-homepage { 
+    padding-left: 20px;
+}
+
+/** --- TYPOS -- */
+h1 {
+    font-family: "Oleo Script", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    color: #ff0065;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #232120;
+    font-size: 32px;
+    font-family: "Oleo Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #4c4745;
+    font-family: "Oleo Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+
+/** --- LAYOUT -- */
 
 .container {
-    background-color: #fcfeff;
-    width: 500px;
+    background-color: #FEFEFE;
+    width: 900px;
+    margin: auto;
     border: 1px, solid, rgb(243, 243, 243);
+    
 }
 
-ul li {
+.recipe-card {
+    width: 800px; 
+    height: 220px;
+    background-color: #eff4f4b0;
+    margin: 20px auto;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5); 
+}
+
+.recipe-card p {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.recipe-content {
+    display: inline-block;
+    width: 520px;
+    vertical-align: top;
+}
+.recipe-info {
+    display: inline-block;
+}
+
+.recipe-info ul li {
+    display: inline-block;
+    margin-right: 10px;
     list-style: none;
 }
 
+.recipe-info ul{
+    display: inline-block;
+   
+}
+
+ul li h2 {
+    font-size: 16px;
+}
+
 .enjoy {
-    text-align: center;
-    font-size: 32px;
-    font-weight: bold;
+    font-family: "Oleo Script", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
     color: #ff0065;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.recipe-content,
+.recipe-content-description,
+.recipe-content-ingredients
+{
+    padding: 20px 10px 10px 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.recipe-content-time ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.recipe-content-steps
+{
+    padding: 20px;
+    vertical-align: top;
+}
+
+.container li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.steps {
+    font-weight: bold;
+}
+
+
+/* --- MEDIAS --- */
+
+.recipe-card img {
+    width: 250px;
+    height: 220px;
+    display: inline-block;
+    vertical-align: top;
+    border-right: 5px solid #ff0065;
+    
+}
+
+.recipe-page-image {
+    width: 100%;
+    padding: 10px 10px 10px 0px;
+    margin: 0 auto;
+}
+
+
+
+/* --- LINKS --- */
+
+/* Homepage */
+.recipe-card a {
+    background-color: #b3184c;
+    border: 1px solid #d6d2a43b;
+    color: white;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+
+/* Recipe page */
+.link-all-recipes {
+    text-align: right;
+ }
+
+.link-all-recipes a {
+    text-decoration: none;
+    background-color: aqua;
+    color: rgb(23, 141, 238);
+    padding: 10px;
+    display: inline-block;
+    margin: 20px;
+    
  }
